@@ -25,5 +25,5 @@ Git Commit for finalizing changes on Git service area
 Git command for seeing the work log
     -> git log
 
-Git push
+Git push - to push updated file on git repo with all changes and commit message
     -> git push -u origin master
