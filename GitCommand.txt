@@ -1,0 +1,29 @@
+Git Setup Command
+    -> git config --global user.name "your github username"
+    -> git config --global user.email "your github email"
+
+Git Repo download
+    -> git clone "github/url/path/repo.git"
+
+Open file on Git text editord
+    -> vim FILENAME.ext
+    
+1. Change on file by pressing 'Insert' key
+2. press 'esc' key to escape from insert mode 
+3. Press :x to save and close the git editor
+
+Check changes on the file
+    -> git status
+
+Add changes into File to Git Repo
+    -> git add FILENAME.ext
+
+Git Commit for finalizing changes on Git service area
+    -> git commit -help (To see all commit commands)
+    -> git commit -m (To commit with message)
+    
+Git command for seeing the work log
+    -> git log
+
+Git push
+    -> git push -u origin master
